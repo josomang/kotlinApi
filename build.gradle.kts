@@ -45,6 +45,11 @@ dependencies {
 
     // test
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation("org.json:json:20240205")
+
+
 }
 
 tasks.withType<KotlinCompile> {
